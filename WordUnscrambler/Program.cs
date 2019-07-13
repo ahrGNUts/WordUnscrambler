@@ -48,6 +48,9 @@ namespace WordUnscrambler
 
                     continueWordUnscramble = continueDecision.Equals(Constants.Yes, StringComparison.OrdinalIgnoreCase);
                 } while (continueWordUnscramble);
+
+                Console.Write("Press any key to continue...");
+                Console.ReadKey();
             }
             catch (Exception ex)
             {
