@@ -21,4 +21,6 @@ public class Constants
     public const string Manual = "M";
 
     public const string WordListFileName = "wordlist.txt";
+
+    public const string FinalMessage = "Done. Press any key to continue...";
 }
